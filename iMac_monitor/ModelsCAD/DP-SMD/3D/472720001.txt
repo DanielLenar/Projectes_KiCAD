@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"33-12022026-055021";"";
+"REFERENCE";"472720001";"";
+"TraceParts.PartTitle";"DisplayPort";"";
+"TraceParts.InstanceId";"33-12022026-0550219D1FUSDQMAMGWTLGL78Y8KY3O";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"0.50mm Pitch DisplayPort Receptacle, Right-Angle, Surface Mount, 0.76µm Gold (Au) Plating, 20 Circuits, without Cover, Mylar or Flange; with Latch Holes, Peg and Solder Tab of Shell, Lead-Free";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.5";"";

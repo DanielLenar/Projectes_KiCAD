@@ -1,0 +1,1300 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c5893e92-461e-4bbf-a995-713c2bc6a1fd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MAX9736BETJT:MAX9736BETJT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U1"
+				(at -1.778 50.8 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MAX9736BETJT"
+				(at -7.112 48.006 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MAX9736BETJT:QFN65P700X700X80-33N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "IC AMP D MONO/STEREO 15W 32TQFN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Analog Devices Inc./Maxim Integrated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX9736BETJ/Analog+Devices/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "MAX9736BETJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MAX9736BETJ/Analog+Devices/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "MAX9736BETJT_0_0"
+				(rectangle
+					(start -21.59 46.99)
+					(end 21.59 3.81)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 26.67 31.75 180)
+					(length 5.08)
+					(name "OUTL-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 31.75 180)
+					(length 5.08)
+					(hide yes)
+					(name "OUTL-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 36.83 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 7.62 0)
+					(length 5.08)
+					(name "MONO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 16.51 0)
+					(length 5.08)
+					(name "FBL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 41.91 0)
+					(length 5.08)
+					(name "INL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -26.67 5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -26.67 5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 44.45 0)
+					(length 5.08)
+					(name "~{MUTE}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 31.75 0)
+					(length 5.08)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 36.83 0)
+					(length 5.08)
+					(name "REGEN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 19.05 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 7.62 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 24.13 180)
+					(length 5.08)
+					(name "REG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 44.45 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -26.67 5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 39.37 0)
+					(length 5.08)
+					(name "INR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 13.97 0)
+					(length 5.08)
+					(name "FBR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 11.43 0)
+					(length 5.08)
+					(name "MOD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 26.67 0)
+					(length 5.08)
+					(name "C1N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 24.13 0)
+					(length 5.08)
+					(name "C1P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 26.67 180)
+					(length 5.08)
+					(name "OUTR-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 26.67 180)
+					(length 5.08)
+					(hide yes)
+					(name "OUTR-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 29.21 180)
+					(length 5.08)
+					(name "OUTR+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 29.21 180)
+					(length 5.08)
+					(hide yes)
+					(name "OUTR+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 5.08 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 41.91 180)
+					(length 5.08)
+					(hide yes)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 34.29 180)
+					(length 5.08)
+					(name "OUTL+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.67 34.29 180)
+					(length 5.08)
+					(hide yes)
+					(name "OUTL+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX9736BETJT_1_0"
+				(pin passive line
+					(at 26.67 7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 41.91 180)
+					(length 5.08)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 10.16 180)
+					(length 5.08)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX9736BETJT_1_1"
+				(pin passive line
+					(at 26.67 5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "MAX9736BETJT:MAX9736BETJT")
+		(at 57.15 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eca8a02-b759-4900-ba41-730a2a7c0867")
+		(property "Reference" "U1"
+			(at 57.15 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX9736BETJT"
+			(at 57.15 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX9736BETJT:QFN65P700X700X80-33N"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC AMP D MONO/STEREO 15W 32TQFN"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Analog Devices Inc./Maxim Integrated"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX9736BETJ/Analog+Devices/view-part/?ref=snap"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MAX9736BETJ"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX9736BETJ/Analog+Devices/view-part/?ref=eda"
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "5eec79b1-f228-49da-88eb-e8e031e365cc")
+		)
+		(pin "6"
+			(uuid "e80f284d-6e79-430d-b87e-15de5f440490")
+		)
+		(pin "10"
+			(uuid "2c72a6d8-1f43-4b14-b562-a2c5dfa7989b")
+		)
+		(pin "1"
+			(uuid "d8184bba-d8d5-4898-aad4-facc5e3b8372")
+		)
+		(pin "2"
+			(uuid "147e319f-2dbf-4f2d-a5e7-282221092c55")
+		)
+		(pin "3"
+			(uuid "2b15d7ab-2ce1-4abc-8716-6ff27ccafa8d")
+		)
+		(pin "5"
+			(uuid "6b06fa44-ed02-4b65-84aa-459e11f23389")
+		)
+		(pin "7"
+			(uuid "8597c643-a008-4db4-9044-cc497acc6047")
+		)
+		(pin "8"
+			(uuid "393f98fc-1d1c-4eac-b83c-6e1dd3392a9e")
+		)
+		(pin "9"
+			(uuid "19a8b1ef-698c-4b54-8c8e-1d3f85f236ac")
+		)
+		(pin "31"
+			(uuid "c0da1ec2-a2f5-43f8-8abd-f4c1e535973c")
+		)
+		(pin "12"
+			(uuid "58b7b125-5b5e-4763-ae47-d03b5fd2d8b9")
+		)
+		(pin "22"
+			(uuid "fcf8479e-6400-423d-a62c-30d540267b8e")
+		)
+		(pin "29"
+			(uuid "39b157fc-4500-4a33-bf49-e23b2c7fb6a0")
+		)
+		(pin "30"
+			(uuid "db1f641e-f82d-40df-a3ca-baa3e14e2feb")
+		)
+		(pin "19"
+			(uuid "ff24aa31-d261-41fb-b403-251cd6a3f66a")
+		)
+		(pin "23"
+			(uuid "a3e4c3f2-2f16-40ee-897b-073ae151d352")
+		)
+		(pin "32"
+			(uuid "7f015a13-6824-4f70-9f54-bc7ea98166dc")
+		)
+		(pin "20"
+			(uuid "60a8abfa-fd2f-408b-a282-cefdc10cc8d3")
+		)
+		(pin "11"
+			(uuid "d4db0232-a9f2-4d85-8d45-a9df34daa960")
+		)
+		(pin "17"
+			(uuid "f2f313ee-f4cd-42dd-b8a7-15073ad2a7cb")
+		)
+		(pin "26"
+			(uuid "9369fb8e-16be-41bf-ba06-563feb11e534")
+		)
+		(pin "27"
+			(uuid "3c7abb98-3c1d-4fd4-8c76-d837218256cb")
+		)
+		(pin "21"
+			(uuid "f93aa447-0d8e-4066-9d37-49311355febd")
+		)
+		(pin "24"
+			(uuid "15cfd947-768b-44ce-add5-360f9926ed4e")
+		)
+		(pin "14"
+			(uuid "8eb16668-c334-4067-8d89-58a20fe21a08")
+		)
+		(pin "25"
+			(uuid "e063d9e7-6903-4ecf-834f-7ac1afb062f9")
+		)
+		(pin "15"
+			(uuid "02ccb601-ae77-42a5-9ff8-85bb2f8e8de8")
+		)
+		(pin "16"
+			(uuid "650b8697-4b80-45dd-aa3b-2a087a5c3614")
+		)
+		(pin "18"
+			(uuid "01d0f419-ea11-451f-a2f6-4c8d5c4d3528")
+		)
+		(pin "33"
+			(uuid "74966a41-ae67-458b-9b75-5c4d7a4ddbee")
+		)
+		(pin "28"
+			(uuid "98870496-78dd-4df5-8a83-2baa2229cc8c")
+		)
+		(pin "13"
+			(uuid "82a97160-f00c-4dd8-9972-7d05c3e37897")
+		)
+		(instances
+			(project "iMac_monitor"
+				(path "/b2252698-946e-4a33-bee4-5f89b222af6f/f8c66c42-588a-4068-815b-565204304e85"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MAX9736BETJT:MAX9736BETJT")
+		(at 57.15 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1c13a1-14ce-4478-aeb8-084d2e501688")
+		(property "Reference" "U2"
+			(at 57.15 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX9736BETJT"
+			(at 57.15 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX9736BETJT:QFN65P700X700X80-33N"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC AMP D MONO/STEREO 15W 32TQFN"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Analog Devices Inc./Maxim Integrated"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX9736BETJ/Analog+Devices/view-part/?ref=snap"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MAX9736BETJ"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX9736BETJ/Analog+Devices/view-part/?ref=eda"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "4b63580b-f431-4716-8951-ca2b65cb84ee")
+		)
+		(pin "9"
+			(uuid "171dc02c-4b5c-43f9-befd-d54ceedbec08")
+		)
+		(pin "7"
+			(uuid "d8c2a142-477c-485d-939f-d2982986bfa5")
+		)
+		(pin "25"
+			(uuid "422aa08c-c462-4d64-bf90-820e998e8b52")
+		)
+		(pin "10"
+			(uuid "ae5f0321-a11d-4205-9248-40ef4bb41568")
+		)
+		(pin "17"
+			(uuid "d7547ae5-393e-43fb-9793-25b37c18b7ba")
+		)
+		(pin "6"
+			(uuid "94151ec5-a0c6-4d16-8c0b-8133b97649ff")
+		)
+		(pin "18"
+			(uuid "c14b8f5d-2a33-4139-9369-e407d3697913")
+		)
+		(pin "20"
+			(uuid "e02c8de8-7f43-4ba7-9843-237b97c1e5f5")
+		)
+		(pin "2"
+			(uuid "e806e68e-aa92-448c-8709-f0c33a6b43de")
+		)
+		(pin "3"
+			(uuid "9d7f3fb1-3ca4-4fff-af8f-68f1cfdc426f")
+		)
+		(pin "5"
+			(uuid "03626357-7ff7-406d-a932-f749254b2363")
+		)
+		(pin "16"
+			(uuid "0d5f1f00-ca3d-41b4-bc5d-cad3de5cb401")
+		)
+		(pin "19"
+			(uuid "bd02bbd6-6f77-432f-a70d-70affa8820a7")
+		)
+		(pin "1"
+			(uuid "0acdb136-483f-41e7-913d-8386c0f66b42")
+		)
+		(pin "4"
+			(uuid "0045035f-641c-4a4a-97ac-1551cfe906fa")
+		)
+		(pin "12"
+			(uuid "aad4a34b-cd17-4dcd-8ad2-bda0bbc02e0c")
+		)
+		(pin "15"
+			(uuid "7803e1bd-afa4-415e-a9c2-f823ea83613d")
+		)
+		(pin "11"
+			(uuid "cb258b55-e7e4-4f52-ab8a-4cbd69202c49")
+		)
+		(pin "13"
+			(uuid "ce35d499-e03f-4e6b-8c59-af15fb0f3bd9")
+		)
+		(pin "21"
+			(uuid "4d4f965c-ddbb-4b01-83c7-ee2612eda895")
+		)
+		(pin "22"
+			(uuid "340b91da-388f-4c2d-beff-859c88d6b028")
+		)
+		(pin "23"
+			(uuid "f3532335-7619-4cd7-a0b7-df0e2553e289")
+		)
+		(pin "24"
+			(uuid "f063cdbf-14d2-4793-a09d-c6865b602ca7")
+		)
+		(pin "26"
+			(uuid "2806f921-8b4c-4313-b597-95b73bccab93")
+		)
+		(pin "29"
+			(uuid "5590c099-9172-4bf0-ac20-2005a245a0a1")
+		)
+		(pin "31"
+			(uuid "32706567-4e85-4ab0-ad9c-13501d460c09")
+		)
+		(pin "14"
+			(uuid "0a201a89-60d4-4ad8-a21c-96c2ee25f912")
+		)
+		(pin "27"
+			(uuid "1bbb1dff-7c17-4088-b552-0e6a2803775c")
+		)
+		(pin "30"
+			(uuid "abb3c067-52d9-4ee9-9547-382b637bd17f")
+		)
+		(pin "32"
+			(uuid "5b354553-a00e-400d-a579-904a16ade314")
+		)
+		(pin "28"
+			(uuid "7f40aa11-f8be-45a1-9812-b7c223ba9150")
+		)
+		(pin "33"
+			(uuid "031257e0-c891-4725-9bcf-ce13fe61cd40")
+		)
+		(instances
+			(project "iMac_monitor"
+				(path "/b2252698-946e-4a33-bee4-5f89b222af6f/f8c66c42-588a-4068-815b-565204304e85"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
