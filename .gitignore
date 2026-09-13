@@ -11,6 +11,8 @@
 *-cache*
 *-bak
 *-bak*
+*.DBK
+*.BAK
 *~
 ~*
 _autosave-*
